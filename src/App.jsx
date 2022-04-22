@@ -1,13 +1,11 @@
-import {Container} from "./style"
+import { Container } from './style';
 
 function App() {
-  return (
-    <div>
-      <Container>
-        
-      </Container>
-    </div>
-  );
+    return (
+        <div>
+            <Container>lol</Container>
+        </div>
+    );
 }
 
 export default App;
