@@ -1,10 +1,16 @@
-import { Container } from './style';
+import { Container, Zone } from './style';
+import { Stats } from './components/Stats';
 
 function App() {
     return (
-        <div>
-            <Container>lol</Container>
-        </div>
+        <Container>
+            <Zone width={20}>
+                <Stats />
+            </Zone>
+
+            <Zone width={60}></Zone>
+            <Zone width={20}></Zone>
+        </Container>
     );
 }
 
