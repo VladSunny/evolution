@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const IconWithCountContainer = styled.div`
     height: 100px;
-    width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
